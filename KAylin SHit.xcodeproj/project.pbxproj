@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD79B78268D5A8E0000911F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD79B77268D5A8E0000911F /* AppDelegate.swift */; };
+		DFD79B7A268D5A8E0000911F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD79B79268D5A8E0000911F /* SceneDelegate.swift */; };
+		DFD79B7C268D5A8E0000911F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD79B7B268D5A8E0000911F /* ViewController.swift */; };
+		DFD79B7F268D5A8E0000911F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD79B7D268D5A8E0000911F /* Main.storyboard */; };
+		DFD79B82268D5A8E0000911F /* KAylin_SHit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD79B80268D5A8E0000911F /* KAylin_SHit.xcdatamodeld */; };
+		DFD79B84268D5A910000911F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD79B83268D5A910000911F /* Assets.xcassets */; };
+		DFD79B87268D5A910000911F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD79B85268D5A910000911F /* LaunchScreen.storyboard */; };
+		DFD79B92268D5A920000911F /* KAylin_SHitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD79B91268D5A920000911F /* KAylin_SHitTests.swift */; };
+		DFD79B9D268D5A920000911F /* KAylin_SHitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD79B9C268D5A920000911F /* KAylin_SHitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD79B8E268D5A920000911F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD79B6C268D5A8E0000911F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD79B73268D5A8E0000911F;
+			remoteInfo = "KAylin SHit";
+		};
+		DFD79B99268D5A920000911F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD79B6C268D5A8E0000911F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD79B73268D5A8E0000911F;
+			remoteInfo = "KAylin SHit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFD79B74268D5A8E0000911F /* KAylin SHit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KAylin SHit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD79B77268D5A8E0000911F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFD79B79268D5A8E0000911F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFD79B7B268D5A8E0000911F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFD79B7E268D5A8E0000911F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD79B81268D5A8E0000911F /* KAylin_SHit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KAylin_SHit.xcdatamodel; sourceTree = "<group>"; };
+		DFD79B83268D5A910000911F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD79B86268D5A910000911F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFD79B88268D5A910000911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD79B8D268D5A920000911F /* KAylin SHitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KAylin SHitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD79B91268D5A920000911F /* KAylin_SHitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAylin_SHitTests.swift; sourceTree = "<group>"; };
+		DFD79B93268D5A920000911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD79B98268D5A920000911F /* KAylin SHitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KAylin SHitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD79B9C268D5A920000911F /* KAylin_SHitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAylin_SHitUITests.swift; sourceTree = "<group>"; };
+		DFD79B9E268D5A920000911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD79B71268D5A8E0000911F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD79B8A268D5A920000911F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD79B95268D5A920000911F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD79B6B268D5A8E0000911F = {
+			isa = PBXGroup;
+			children = (
+				DFD79B76268D5A8E0000911F /* KAylin SHit */,
+				DFD79B90268D5A920000911F /* KAylin SHitTests */,
+				DFD79B9B268D5A920000911F /* KAylin SHitUITests */,
+				DFD79B75268D5A8E0000911F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD79B75268D5A8E0000911F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD79B74268D5A8E0000911F /* KAylin SHit.app */,
+				DFD79B8D268D5A920000911F /* KAylin SHitTests.xctest */,
+				DFD79B98268D5A920000911F /* KAylin SHitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD79B76268D5A8E0000911F /* KAylin SHit */ = {
+			isa = PBXGroup;
+			children = (
+				DFD79B77268D5A8E0000911F /* AppDelegate.swift */,
+				DFD79B79268D5A8E0000911F /* SceneDelegate.swift */,
+				DFD79B7B268D5A8E0000911F /* ViewController.swift */,
+				DFD79B7D268D5A8E0000911F /* Main.storyboard */,
+				DFD79B83268D5A910000911F /* Assets.xcassets */,
+				DFD79B85268D5A910000911F /* LaunchScreen.storyboard */,
+				DFD79B88268D5A910000911F /* Info.plist */,
+				DFD79B80268D5A8E0000911F /* KAylin_SHit.xcdatamodeld */,
+			);
+			path = "KAylin SHit";
+			sourceTree = "<group>";
+		};
+		DFD79B90268D5A920000911F /* KAylin SHitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD79B91268D5A920000911F /* KAylin_SHitTests.swift */,
+				DFD79B93268D5A920000911F /* Info.plist */,
+			);
+			path = "KAylin SHitTests";
+			sourceTree = "<group>";
+		};
+		DFD79B9B268D5A920000911F /* KAylin SHitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD79B9C268D5A920000911F /* KAylin_SHitUITests.swift */,
+				DFD79B9E268D5A920000911F /* Info.plist */,
+			);
+			path = "KAylin SHitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD79B73268D5A8E0000911F /* KAylin SHit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD79BA1268D5A920000911F /* Build configuration list for PBXNativeTarget "KAylin SHit" */;
+			buildPhases = (
+				DFD79B70268D5A8E0000911F /* Sources */,
+				DFD79B71268D5A8E0000911F /* Frameworks */,
+				DFD79B72268D5A8E0000911F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KAylin SHit";
+			productName = "KAylin SHit";
+			productReference = DFD79B74268D5A8E0000911F /* KAylin SHit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD79B8C268D5A920000911F /* KAylin SHitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD79BA4268D5A920000911F /* Build configuration list for PBXNativeTarget "KAylin SHitTests" */;
+			buildPhases = (
+				DFD79B89268D5A920000911F /* Sources */,
+				DFD79B8A268D5A920000911F /* Frameworks */,
+				DFD79B8B268D5A920000911F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD79B8F268D5A920000911F /* PBXTargetDependency */,
+			);
+			name = "KAylin SHitTests";
+			productName = "KAylin SHitTests";
+			productReference = DFD79B8D268D5A920000911F /* KAylin SHitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD79B97268D5A920000911F /* KAylin SHitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD79BA7268D5A920000911F /* Build configuration list for PBXNativeTarget "KAylin SHitUITests" */;
+			buildPhases = (
+				DFD79B94268D5A920000911F /* Sources */,
+				DFD79B95268D5A920000911F /* Frameworks */,
+				DFD79B96268D5A920000911F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD79B9A268D5A920000911F /* PBXTargetDependency */,
+			);
+			name = "KAylin SHitUITests";
+			productName = "KAylin SHitUITests";
+			productReference = DFD79B98268D5A920000911F /* KAylin SHitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD79B6C268D5A8E0000911F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DFD79B73268D5A8E0000911F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DFD79B8C268D5A920000911F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DFD79B73268D5A8E0000911F;
+					};
+					DFD79B97268D5A920000911F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DFD79B73268D5A8E0000911F;
+					};
+				};
+			};
+			buildConfigurationList = DFD79B6F268D5A8E0000911F /* Build configuration list for PBXProject "KAylin SHit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD79B6B268D5A8E0000911F;
+			productRefGroup = DFD79B75268D5A8E0000911F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD79B73268D5A8E0000911F /* KAylin SHit */,
+				DFD79B8C268D5A920000911F /* KAylin SHitTests */,
+				DFD79B97268D5A920000911F /* KAylin SHitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD79B72268D5A8E0000911F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD79B87268D5A910000911F /* LaunchScreen.storyboard in Resources */,
+				DFD79B84268D5A910000911F /* Assets.xcassets in Resources */,
+				DFD79B7F268D5A8E0000911F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD79B8B268D5A920000911F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD79B96268D5A920000911F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD79B70268D5A8E0000911F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD79B7C268D5A8E0000911F /* ViewController.swift in Sources */,
+				DFD79B78268D5A8E0000911F /* AppDelegate.swift in Sources */,
+				DFD79B7A268D5A8E0000911F /* SceneDelegate.swift in Sources */,
+				DFD79B82268D5A8E0000911F /* KAylin_SHit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD79B89268D5A920000911F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD79B92268D5A920000911F /* KAylin_SHitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD79B94268D5A920000911F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD79B9D268D5A920000911F /* KAylin_SHitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD79B8F268D5A920000911F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD79B73268D5A8E0000911F /* KAylin SHit */;
+			targetProxy = DFD79B8E268D5A920000911F /* PBXContainerItemProxy */;
+		};
+		DFD79B9A268D5A920000911F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD79B73268D5A8E0000911F /* KAylin SHit */;
+			targetProxy = DFD79B99268D5A920000911F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD79B7D268D5A8E0000911F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD79B7E268D5A8E0000911F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD79B85268D5A910000911F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD79B86268D5A910000911F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD79B9F268D5A920000911F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFD79BA0268D5A920000911F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD79BA2268D5A920000911F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KAylin SHit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cindy.KAylin-SHit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD79BA3268D5A920000911F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KAylin SHit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cindy.KAylin-SHit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFD79BA5268D5A920000911F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KAylin SHitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cindy.KAylin-SHitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAylin SHit.app/KAylin SHit";
+			};
+			name = Debug;
+		};
+		DFD79BA6268D5A920000911F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KAylin SHitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cindy.KAylin-SHitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAylin SHit.app/KAylin SHit";
+			};
+			name = Release;
+		};
+		DFD79BA8268D5A920000911F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KAylin SHitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cindy.KAylin-SHitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KAylin SHit";
+			};
+			name = Debug;
+		};
+		DFD79BA9268D5A920000911F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KAylin SHitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cindy.KAylin-SHitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KAylin SHit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD79B6F268D5A8E0000911F /* Build configuration list for PBXProject "KAylin SHit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD79B9F268D5A920000911F /* Debug */,
+				DFD79BA0268D5A920000911F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD79BA1268D5A920000911F /* Build configuration list for PBXNativeTarget "KAylin SHit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD79BA2268D5A920000911F /* Debug */,
+				DFD79BA3268D5A920000911F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD79BA4268D5A920000911F /* Build configuration list for PBXNativeTarget "KAylin SHitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD79BA5268D5A920000911F /* Debug */,
+				DFD79BA6268D5A920000911F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD79BA7268D5A920000911F /* Build configuration list for PBXNativeTarget "KAylin SHitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD79BA8268D5A920000911F /* Debug */,
+				DFD79BA9268D5A920000911F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFD79B80268D5A8E0000911F /* KAylin_SHit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFD79B81268D5A8E0000911F /* KAylin_SHit.xcdatamodel */,
+			);
+			currentVersion = DFD79B81268D5A8E0000911F /* KAylin_SHit.xcdatamodel */;
+			path = KAylin_SHit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFD79B6C268D5A8E0000911F /* Project object */;
+}
